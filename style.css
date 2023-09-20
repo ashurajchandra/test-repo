@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container-grid {
+    display: grid;
+    width: 80%;
+    height: 85vh;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 2px solid #000;
+   
+    margin: auto;
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+    /* justify-content: center;
+    align-items: center; */
+    /* gap: 2px; */
+   
+  }
+  /* .child-container{
+    border: 2px solid red;
+  }
+  
+  .child-container>div:nth-child(odd) {
+    background-color: black;
+  }
+ div:nth-child(even) {
+    background-color: white;
+  } */
+  
+  .red{
+    background-color: red;
+  }
